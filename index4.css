@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+.material-symbols-outlined
+ {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.head
+{
+  display: flex;
+  justify-content: flex-end;
+  background-color:transparent;
+  align-items: flex-end;
+}
+
+.logo
+{
+    margin-right: auto;
+    padding: 0px 30px;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.head nav ul
+{
+    display: flex;
+}
+
+.head nav ul li
+{
+    list-style: none;
+}
+
+.head nav ul li a
+{
+    text-decoration: none;
+    padding: 1px 75px;
+    font-size: 1.5em;
+}
+
+.head button
+{
+    border-radius: 8px;
+    margin-right: 20px;
+    background-color: rgb(21, 163, 75);
+    padding: 2px 10px;
+}
+.Wapper
+{
+    background-image:linear-gradient(rgb(0,0,0),rgba(0,0,0,0.8),rgb(255,255,255)),url(/pexels-emre-can-acer-2079451.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.Wapper .Container 
+{
+    display: flex;
+}
+
+.Container h3
+{
+    font-size: 40px;
+}
+
+.Container .con1
+{
+    padding: 140px 130px;
+}
+
+.Container .con1 p
+{
+    line-height: 2em;
+}
+
+.Container .img
+{
+    padding: 140px 80px;
+}
+
+.bt button
+{
+    background-color:  rgb(21, 163, 75);
+    padding: 5px 5px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border-color:  rgb(53, 56, 54);
+}
+
+.logo:hover
+{
+    color: rgb(21, 163, 75);
+    transition: all 0.3s ease-in 0s;
+}
+
+.head ul li a:hover
+{
+    color: rgb(226, 69, 21);
+    transition: all 0.3s ease-out 0s;
+}
+
+.head > button:hover
+{
+  background-color:rgb(266,69,21);
+  transition: all 0.3s ease-in 0s;
+}
+
+.con1 h3:hover
+{
+   color:rgb(266,69,21);
+   transition: all 0.3s ease-out 0s;
+}
+
+.bt button:hover
+{
+  background-color:rgb(226, 69, 21);
+}

@@ -1,0 +1,88 @@
+:root
+{
+  --yellow:#FFC54D;
+  --red:crimson;
+  --green:#53BF90;
+  --white:whitesmoke;
+  --Orange:#dd5414;
+
+}
+.landing
+{
+   background-image:url("/pexels-engin-akyurt-2673353.jpg");
+   background-size: cover;
+   background-position: center;
+   height:100vh;
+}
+
+.landing .header h
+{
+    padding:10px;
+    color: var(--white);
+    
+}
+.landing a
+{
+    text-decoration: none;
+    color:var(--yellow);
+}
+
+top
+{
+    display: flex;
+    padding:10px;
+}
+
+top #Spicy
+{
+    flex:3;
+    font-size: 2em;
+}
+
+top nav
+{
+    flex:2;
+    display:flex;
+    font-size: 1em;
+}
+
+top nav a
+{
+    flex:1;
+}
+
+nav a:hover
+{
+    color:var(--green);
+}
+
+.header
+{
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+#con1
+{
+    font-size:2em;
+    color: var(--red);
+}
+#con2
+{
+    font-size: 1.5em;
+    color: var(--yellow);
+}
+
+button
+{
+    width:100px;
+    border-radius: 8px;
+    background-color: var(--green);
+    border-color:#5dbe6a;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: var(--white);
+}
